@@ -1,0 +1,50 @@
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 776px;
+  object-fit: cover;
+}
+.lustrousYetUnderstated {
+  margin-block-start: 0;
+  margin-block-end: 9px;
+}
+.angeles {
+  margin: 0;
+}
+.lustrousYetUnderstatedContainer {
+  position: absolute;
+  top: 369px;
+  left: 1083px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.pxZaraLogo1Icon {
+  position: absolute;
+  top: 51px;
+  left: 1244px;
+  width: 732px;
+  height: 309px;
+  object-fit: cover;
+  opacity: 0.08;
+}
+.pxZaraLogo2Icon {
+  position: absolute;
+  top: 233px;
+  left: 1083px;
+  width: 191px;
+  height: 81px;
+  object-fit: cover;
+}
+.brandBanner {
+  position: absolute;
+  top: 3166px;
+  left: 0;
+  width: 1920px;
+  height: 776px;
+  text-align: left;
+  font-size: var(--paragraph-size);
+  color: var(--furniture-color-white);
+  font-family: var(--button);
+}

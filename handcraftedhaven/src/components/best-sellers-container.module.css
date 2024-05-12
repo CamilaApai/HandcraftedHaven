@@ -1,0 +1,270 @@
+.orSubscribeTo {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.sectionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: var(--button);
+}
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.itemTab {
+  width: 92px;
+  position: relative;
+  height: 22px;
+  color: var(--dark);
+}
+.itemTab1,
+.itemTab2,
+.itemTab3 {
+  width: 51px;
+  position: relative;
+  height: 22px;
+}
+.itemTab2,
+.itemTab3 {
+  width: 63px;
+}
+.itemTab3 {
+  width: 46px;
+}
+.category,
+.topSectionProducts {
+  width: 373px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.topSectionProducts {
+  width: 1320px;
+  text-align: left;
+  font-size: var(--a-size);
+  color: var(--dark-50);
+}
+.img11Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 312px;
+  height: 400px;
+  object-fit: cover;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary);
+}
+.background,
+.hot,
+.ribbon {
+  position: absolute;
+}
+.hot {
+  height: 66.67%;
+  width: 53.85%;
+  top: 16.67%;
+  left: 23.08%;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.ribbon {
+  top: 22px;
+  left: 0;
+  width: 52px;
+  height: 24px;
+}
+.topProduct {
+  width: 312px;
+  position: relative;
+  height: 400px;
+}
+.bag,
+.div,
+.nikeSportswearFutura {
+  position: absolute;
+  text-transform: capitalize;
+}
+.bag {
+  top: 38px;
+  left: 0;
+  color: var(--dark-50);
+}
+.div,
+.nikeSportswearFutura {
+  font-weight: 600;
+}
+.div {
+  top: 38px;
+  left: 232px;
+  text-align: right;
+}
+.nikeSportswearFutura {
+  top: 0;
+  left: 0;
+}
+.titleProduct {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 139px;
+  height: 22px;
+}
+.bottomProduct {
+  width: 292px;
+  position: relative;
+  height: 60px;
+  text-align: left;
+  font-size: var(--a-size);
+  color: var(--dark);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.ribbon1 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 52px;
+  height: 24px;
+  display: none;
+}
+.background2,
+.titleProduct1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 22px;
+}
+.background2 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--black);
+}
+.sale {
+  position: absolute;
+  top: 16.67%;
+  left: 23.08%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.bag2,
+.div2,
+.div3 {
+  position: absolute;
+  text-transform: capitalize;
+}
+.bag2 {
+  top: 38px;
+  left: 0;
+}
+.div2,
+.div3 {
+  font-weight: 600;
+  text-align: right;
+}
+.div2 {
+  top: 38px;
+  left: 232px;
+  color: var(--primary);
+}
+.div3 {
+  top: 40px;
+  left: 168px;
+  font-size: var(--span-2-size);
+  text-decoration: line-through;
+}
+.titleProduct2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 186px;
+  height: 22px;
+  color: var(--dark);
+}
+.bottomProduct2 {
+  width: 292px;
+  position: relative;
+  height: 60px;
+  font-size: var(--a-size);
+  color: var(--dark-50);
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+}
+.titleProduct3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 177px;
+  height: 22px;
+  color: var(--dark);
+}
+.products,
+.sliderArrow {
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+.products {
+  top: 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.sliderArrow {
+  top: 178px;
+  width: 1315px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.slider {
+  width: 1320px;
+  position: relative;
+  height: 478px;
+  font-size: var(--overline-size);
+  color: var(--furniture-color-white);
+}
+.sliderProducts {
+  position: absolute;
+  top: 4082px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--dark);
+  font-family: var(--a);
+}
