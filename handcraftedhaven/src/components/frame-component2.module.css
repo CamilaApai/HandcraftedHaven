@@ -114,6 +114,7 @@
   width: 1320px;
   position: relative;
   height: 754px;
+  background-color: var(--color-whitesmoke-100);
 }
 .homeInner {
   position: absolute;
