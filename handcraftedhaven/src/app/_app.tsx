@@ -3,13 +3,6 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
 
-/*New*/
-// Declare the custom CSS property
-declare module 'react' {
-  interface CSSProperties {
-    '--webkitTextStroke'?: string;
-  }
-}
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
