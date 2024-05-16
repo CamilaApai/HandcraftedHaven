@@ -15,7 +15,7 @@ export type StylesolidPaddingsquareSType = {
   iconFontSize?: CSSProperties["fontSize"];
   iconColor?: CSSProperties["color"];
   iconHeight?: CSSProperties["height"];
-  iconWebkitTextStroke?: CSSProperties["webkitTextStroke"];
+  //iconWebkitTextStroke?: CSSProperties["webkitTextStroke"];
   iconFontFamily?: CSSProperties["fontFamily"];
 };
 
@@ -30,7 +30,7 @@ const StylesolidPaddingsquareS: NextPage<StylesolidPaddingsquareSType> = ({
   iconFontSize,
   iconColor,
   iconHeight,
-  iconWebkitTextStroke,
+  // iconWebkitTextStroke,
   iconFontFamily,
 }) => {
   const stylesolidPaddingsquareSStyle: CSSProperties = useMemo(() => {
@@ -55,7 +55,7 @@ const StylesolidPaddingsquareS: NextPage<StylesolidPaddingsquareSType> = ({
       fontSize: iconFontSize,
       color: iconColor,
       height: iconHeight,
-      webkitTextStroke: iconWebkitTextStroke,
+      // webkitTextStroke: iconWebkitTextStroke,
       fontFamily: iconFontFamily,
     };
   }, [
@@ -63,7 +63,7 @@ const StylesolidPaddingsquareS: NextPage<StylesolidPaddingsquareSType> = ({
     iconFontSize,
     iconColor,
     iconHeight,
-    iconWebkitTextStroke,
+    //  iconWebkitTextStroke,
     iconFontFamily,
   ]);
 
