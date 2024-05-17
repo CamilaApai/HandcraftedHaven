@@ -1,4 +1,5 @@
-import styles from "./index.module.css";
+import Link from 'next/link';
+import styles from './index.module.css';
 
 export default function Header() {
   return (
@@ -6,10 +7,18 @@ export default function Header() {
       <div className={styles.navBar}>
         <div className={styles.frameParent4}>
           <div className={styles.productsParent}>
-            <div className={styles.products}>Products</div>
-            <div className={styles.artisans}>Artisans</div>
-            <div className={styles.aboutUs}>About us</div>
-            <div className={styles.contact}>Contact</div>
+            <Link href="products/page">
+              <p className={styles.products}>Products</p>
+            </Link>
+            <Link href="artisans/page">
+              <p className={styles.artisans}>Artisans</p>
+            </Link>
+            <Link href="about/page">
+              <p className={styles.aboutUs}>About us</p>
+            </Link>
+            <Link href="contact/page">
+              <p className={styles.contact}>Contact</p>
+            </Link>
           </div>
           <div className={styles.layer1}>
             <img className={styles.groupIcon} alt="" src="/group.svg" />
