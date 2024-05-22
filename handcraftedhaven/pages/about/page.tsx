@@ -7,6 +7,7 @@ export default function Home() {
         <>
             <Header />
             {/* About Content */}
+            <p>Hi</p>
             <Footer />
         </>
     );
