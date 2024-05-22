@@ -10,13 +10,13 @@ const HomeLinkcommon: NextPage = () => {
         <div className={styles.shippingInner}>
           <div className={styles.groupParent}>
             <img className={styles.frameChild} alt="" src="/group-62.svg" />
-            <div className={styles.contactUs}>CONTACT US</div>
+            <div className={styles.contactUs}>GREAT CUSTOMER SERVICE</div>
           </div>
         </div>
         <div className={styles.shippingChild}>
           <div className={styles.freeShippingParent}>
-            <div className={styles.contactUs}>Free Shipping</div>
             <img className={styles.frameChild} alt="" src="/group-9242.svg" />
+            <div className={styles.contactUs}>Free Shipping</div>
           </div>
         </div>
         <div className={styles.frameDiv}>

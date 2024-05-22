@@ -769,11 +769,11 @@
 
 .productsParent {
   position: absolute;
-  top: 23px;
   left: 304px;
   width: 488px;
   height: 14px;
   font-family: var(--font-cinzel);
+  top: 6.2px;
 }
 
 .groupIcon,
@@ -813,15 +813,6 @@
   width: 25.4px;
   position: relative;
   height: 29.6px;
-}
-
-.fi860808Icon {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 26.5px;
-  height: 26.5px;
-  overflow: hidden;
 }
 
 .div {
