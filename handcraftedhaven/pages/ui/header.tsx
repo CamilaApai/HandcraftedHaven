@@ -1,4 +1,5 @@
-import styles from "./index.module.css";
+import Link from 'next/link';
+import styles from './index.module.css';
 
 export default function Header() {
   return (
@@ -6,17 +7,29 @@ export default function Header() {
       <div className={styles.navBar}>
         <div className={styles.frameParent4}>
           <div className={styles.productsParent}>
-            <div className={styles.products}>Products</div>
-            <div className={styles.artisans}>Artisans</div>
-            <div className={styles.aboutUs}>About us</div>
-            <div className={styles.contact}>Contact</div>
+            <Link href="/content/products/page">
+              <p className={styles.products}>Products</p>
+            </Link>
+            <Link href="/content/artisans/page">
+              <p className={styles.artisans}>Artisans</p>
+            </Link>
+            <Link href="/content/about/page">
+              <p className={styles.aboutUs}>About us</p>
+            </Link>
+            <Link href="/content/contact/page">
+              <p className={styles.contact}>Contact</p>
+            </Link>
           </div>
           <div className={styles.layer1}>
+          <Link href="/">
             <img className={styles.groupIcon} alt="" src="/group.svg" />
             <img className={styles.groupIcon1} alt="" src="/group1.svg" />
+            </Link>
           </div>
           <div className={styles.vectorParent}>
+          <Link href="/login/page">
             <img className={styles.vectorIcon5} alt="" src="/vector4.svg" />
+            </Link>
             <div className={styles.fi860808Parent}>
               <img
                 className={styles.fi860808Icon}
