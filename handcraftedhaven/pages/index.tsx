@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import styles from "./index.module.css";
-import Header from "./header";
-import Footer from "./footer";
+import styles from "./ui/index.module.css";
+import Header from "./ui/header";
+import Footer from "./ui/footer";
 
 const HomeLinkcommon: NextPage = () => {
   return (
@@ -158,7 +158,7 @@ const HomeLinkcommon: NextPage = () => {
                 <div className={styles.buyNow}>Buy Now</div>
               </div>
             </div>
-            <div className={styles.rectangleParent3}>
+            {/* <div className={styles.rectangleParent3}>
               <div className={styles.rectangleDiv} />
               <img
                 className={styles.frameChild6}
@@ -242,7 +242,7 @@ const HomeLinkcommon: NextPage = () => {
               <div className={styles.buyNowContainer}>
                 <div className={styles.buyNow}>Buy Now</div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className={styles.goToSlide2Parent}>
             <div className={styles.goToSlide2} />
