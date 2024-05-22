@@ -1,6 +1,6 @@
 
-import Header from "/pages/header";
-import Footer from "/pages/footer";
+import Header from "../header";
+import Footer from "../footer";
 
 export default function Home() {
     return (
