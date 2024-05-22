@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import styles from "./ui/index.module.css";
-import Header from "./ui/header";
-import Footer from "./ui/footer";
+import styles from "./index.module.css";
+import Header from "./header";
+import Footer from "./footer";
 
 const HomeLinkcommon: NextPage = () => {
   return (

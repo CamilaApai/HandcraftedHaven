@@ -1,5 +1,5 @@
-import Header from "../ui/header";
-import Footer from "../ui/footer";
+import Header from "../header";
+import Footer from "../footer";
 
 export default function Home() {
     return (
