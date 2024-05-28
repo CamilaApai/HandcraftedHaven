@@ -7,16 +7,16 @@ export default function Header() {
       <div className={styles.navBar}>
         <div className={styles.frameParent4}>
           <div className={styles.productsParent}>
-            <Link href="/content/products/page">
+            <Link href="/products/page">
               <p className={styles.products}>Products</p>
             </Link>
-            <Link href="/content/artisans/page">
+            <Link href="/artisans/page">
               <p className={styles.artisans}>Artisans</p>
             </Link>
-            <Link href="/content/about/page">
+            <Link href="/about/page">
               <p className={styles.aboutUs}>About us</p>
             </Link>
-            <Link href="/content/contact/page">
+            <Link href="/contact/page">
               <p className={styles.contact}>Contact</p>
             </Link>
           </div>
