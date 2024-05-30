@@ -2,7 +2,7 @@ import Header from "../header";
 import Footer from "../footer";
 import styles from "../index.module.css";
 
-export default function Contact() {
+export default function Home() {
     return (
         <>
             <Header />
