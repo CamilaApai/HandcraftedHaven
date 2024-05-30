@@ -27,11 +27,7 @@ export default function Header() {
           <div className={styles.vectorParent}>
             <img className={styles.vectorIcon5} alt="" src="/vector4.svg" />
             <div className={styles.fi860808Parent}>
-              <img
-                className={styles.fi860808Icon}
-                alt=""
-                src="/fi-860808.svg"
-              />
+              
               <div className={styles.wrapper}>
                 <div className={styles.div}>11</div>
               </div>
@@ -41,12 +37,6 @@ export default function Header() {
               <div className={styles.container}>
                 <div className={styles.div1}>0</div>
               </div>
-            </div>
-          </div>
-          <div className={styles.frameWrapper1}>
-            <div className={styles.searchParent}>
-              <div className={styles.search}>Search</div>
-              <img className={styles.fi54481Icon} alt="" src="/fi-54481.svg" />
             </div>
           </div>
         </div>
