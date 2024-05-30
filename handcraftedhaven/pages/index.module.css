@@ -311,7 +311,6 @@
 
 .shopNowGroup {
   top: 510px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -769,11 +768,11 @@
 
 .productsParent {
   position: absolute;
-  top: 23px;
   left: 304px;
   width: 488px;
   height: 14px;
   font-family: var(--font-cinzel);
+  top: 6.2px;
 }
 
 .groupIcon,
@@ -813,15 +812,6 @@
   width: 25.4px;
   position: relative;
   height: 29.6px;
-}
-
-.fi860808Icon {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 26.5px;
-  height: 26.5px;
-  overflow: hidden;
 }
 
 .div {
@@ -964,13 +954,6 @@
   height: 60px;
 }
 
-.lineIcon,
-.navBar {
-  position: absolute;
-  left: 0;
-  width: 1920px;
-}
-
 .navBar {
   top: 0;
   background-color: var(--furniture-color-bg);
@@ -1017,7 +1000,7 @@
 }
 
 .footerInner {
-  background-color: rgba(255, 233, 226, 0.16);
+  background-color: rgba(243, 245, 247, 0.5);
   height: 447.4px;
   justify-content: flex-end;
   padding: 29.4px 0;
@@ -1026,21 +1009,110 @@
 
 .footer {
   position: absolute;
-  top: 3268px;
   left: calc(50% - 960px);
   justify-content: flex-start;
   font-size: 16px;
   color: #1c0e00;
 }
 
+.footerIndex .footer{
+  top: 2800px;
+}
+ .footerAbout .footer{
+  top: 900px;
+}
+
+.footerContact .footer {
+  top: 800px;
+}
+
+.footerThanks .footer {
+  top: 300px;
+}
+
 .homeLinkcommon01 {
-  width: 100%;
-  position: relative;
   background-color: var(--furniture-color-white);
-  height: 3968px;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-21xl);
   color: var(--furniture-color-white);
   font-family: var(--font-questrial);
+}
+
+/* Contact Page Form */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.formInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.formInput {
+  padding: 15px;
+  border: 1px solid #ff6500;
+  border-radius: 5px;
+}
+
+.formButton {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6500;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 50%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.formButton:hover {
+  background-color: #d25e11;
+}
+
+/* About Me and Contact Pages */
+.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mainContent h1,
+.mainContent h2,
+.mainContent h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mainContent p,
+.mainContent li {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contactIconsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contactIconsContainer a {
+  margin: 0 10px;
+}
+
+.mainContentCenter {
+  text-align: center;
 }
