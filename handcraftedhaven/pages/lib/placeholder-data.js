@@ -198,10 +198,10 @@ const users = [
   ];
   
   module.exports = {
-    users,
-    customers,
-    invoices,
-    revenue,
+    // users,
+    // customers,
+    // invoices,
+    // revenue,
     registers,
     logins,
   };
