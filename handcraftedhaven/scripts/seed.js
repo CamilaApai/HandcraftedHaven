@@ -2,7 +2,7 @@ const { db } = require('@vercel/postgres');
 const {
   registers,
   logins,
-} = require('../pages/lib/placeholder-data.js');
+} = require('../pages/lib/placeholder-data.page.js');
 const bcrypt = require('bcrypt');
 
 // async function seedUsers(client) {
