@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['placeholder-data.js', 'mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
+  pageExtensions: ['placeholder-data.js', 'mdx', 'md', 'jsx', 'tsx', 'ts'],
 
 };
 
