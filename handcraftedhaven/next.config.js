@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['placeholder-data.js'],
+  reactStrictMode: true,
+  pageExtensions: ['placeholder-data.js', 'mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
 
 };
 
